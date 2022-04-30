@@ -10,3 +10,9 @@ def __init__(self, canvas, color, paddle, bricks, score):
         self.canvas.move(self.id, 230, 461)
         start = [4, 3.8, 3.6, 3.4, 3.2, 3, 2.8, 2.6]
         random.shuffle(start)
+
+        self.x = start[0]
+        self.y = -start[0]
+        self.canvas.move(self.id, self.x, self.y)
+        self.canvas_height = canvas.winfo_height()
+        self.canvas_width = canvas.winfo_width()
