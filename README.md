@@ -7,4 +7,5 @@ Zasady działania
 Grając w grę porusza się platformą, poprzez naciskanie strzałek w prawo i lewo na klawiaturze komputera. Piłka opadając na platformę odbija się od niej pod tym samym kątem pod jakim spadła. Wygrana następuje poprzez zbicie wszystkich klocków. Przegrana następuje w momencie upadku piłki poza obszar platformy.
 
 Inne
-Do kompilacji gry w języku Pyhton użyto Mu Editor
+Do kompilacji gry w języku Pyhton użyto Mu Editor.
+Do kompilacji gry w języku C++ użyto C++ builder.
