@@ -17,3 +17,12 @@ def start_game(event):
                 tmp = Bricks(canvas, BRICK_COLOR[0])
                 b.append(tmp)
             bricks.append(b)
+	#przypadki_WON_LOSE_PAUSE
+        time.sleep(1)
+        while 1:
+            if paddle.pausec !=1:
+                try:
+                    canvas.delete(m)
+                    del m
+                except:
+                    pass
