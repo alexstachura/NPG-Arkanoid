@@ -38,3 +38,9 @@ def start_game(event):
                         root.update()
                         playing = False
                         break
+		else:
+                    canvas.create_text(250, 250, text="GAME OVER!!", fill="red", font="Consolas 24 ")
+                    root.update_idletasks()
+                    root.update()
+                    playing = False
+                    break
