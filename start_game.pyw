@@ -44,3 +44,10 @@ def start_game(event):
                     root.update()
                     playing = False
                     break
+	else:
+                try:
+                    if m==None:pass
+                except:
+                    m=canvas.create_text(250, 250, text="PAUSE!!", fill="green", font="Consolas 24 ")
+                root.update_idletasks()
+                root.update()
