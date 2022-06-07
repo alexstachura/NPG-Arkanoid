@@ -9,4 +9,3 @@ TForm1 *Form1;
 #odliczanie_i_kolizja
 int x=-8, y=-8;
 int do_wygranej=12;
-git --amend --date="2022-04-21 11:42:36"
