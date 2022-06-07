@@ -11,6 +11,7 @@ TForm1 *Form1;
 #odliczanie_i_kolizja
 int x=-8, y=-8;
 int do_wygranej=12;
+git commit --amend --date="Wed April 16 14:00 2022 +0100"
 
 bool kolizja(TImage *pilka, TImage *cegla)
 {
@@ -35,7 +36,7 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
     //odbij od lewej sciany
     if (b->Left-5 <= tlo->Left) x=-x;
 
-    //odbij od górnej sciany
+    //odbij od gÃ³rnej sciany
     if (b->Top-5 <= tlo->Top) y=-y;
 
    //odbij od prawej sciany
@@ -46,7 +47,7 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
     {
         Timer_pilka->Enabled = false;
         b->Visible=false;
-        Button1->Caption = "Pora¿ka! Jeszcze raz?";
+        Button1->Caption = "PoraÂ¿ka! Jeszcze raz?";
         Button1->Visible=true;
     }
     //odbicie pilki (b) od paletki (p)
@@ -143,7 +144,7 @@ void __fastcall TForm1::FormCreate(TObject *Sender)
    MediaPlayer1->Open();
 }
 //---------------------------------------------------------------------------
-#wywo³anie_dzwieku
+#wywoÂ³anie_dzwieku
 void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
 {
    MediaPlayer1->Close();
