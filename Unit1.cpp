@@ -8,10 +8,10 @@
 #pragma package(smart_init)
 #pragma resource "*.dfm"
 TForm1 *Form1;
+
 #odliczanie_i_kolizja
 int x=-8, y=-8;
 int do_wygranej=12;
-git commit --amend --date="Wed April 16 14:00 2022 +0100"
 
 bool kolizja(TImage *pilka, TImage *cegla)
 {
@@ -144,7 +144,7 @@ void __fastcall TForm1::FormCreate(TObject *Sender)
    MediaPlayer1->Open();
 }
 //---------------------------------------------------------------------------
-#wywo³anie_dzwieku
+#wywolanie_dzwieku
 void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
 {
    MediaPlayer1->Close();
