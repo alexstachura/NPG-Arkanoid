@@ -34,6 +34,7 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
         Timer_pilka->Enabled = false;
         b->Visible=false;
         Button1->Caption = "Wygrana! Jeszcze raz?";
+         
         Button1->Visible=true;
      }
 
