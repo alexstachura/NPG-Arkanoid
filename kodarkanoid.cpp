@@ -27,7 +27,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 }
 //---------------------------------------------------------------------------
 //zaprogramowanie_timera_dla_pilki
-void __fastcall TForm1::Timer_pilkaTimer(Tobject *Sender)
+void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
 {
     MediaPlayer1->Play();
     b->Left+=x; b->Top+=y;
