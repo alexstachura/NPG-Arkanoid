@@ -11,7 +11,7 @@ TForm1 *Form1;
 
 //odliczanie_i_kolizja
 int x=-8, y=-8;
-int do_wygranej=12; 
+int do_wygranej=122; 
 
 bool kolizja(TImage *pilka, TImage *cegla)
 {
