@@ -135,7 +135,7 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
      Image3->Visible=true; Image7->Visible=true; Image11->Visible=true;
      Image4->Visible=true; Image8->Visible=true; Image12->Visible=true;
 }
-//---------------------------------------------------------------------------
+//----------------------------------------------------------------------------
 //muzyka_arkanoid
 void __fastcall TForm1::FormCreate(TObject *Sender)
 {
