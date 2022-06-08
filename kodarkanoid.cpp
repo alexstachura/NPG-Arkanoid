@@ -106,3 +106,9 @@ void __fastcall TForm1::FormKeyUp(TObject *Sender, WORD &Key,
   if(Key==VK_LEFT) lewo->Enabled=false;
   if(Key==VK_RIGHT) prawo->Enabled=false;
 }
+//---------------------------------------------------------------------------
+#timer_lewo
+void __fastcall TForm1::lewoTimer(TObject *Sender)
+{
+    if (p->Left>10) p->Left-=10;
+}
