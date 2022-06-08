@@ -34,3 +34,10 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
 
     //odbij od lewej sciany
     if (b->Left-5 <= tlo->Left) x=-x;
+   
+    //odbij od górnej sciany
+    if (b->Top-5 <= tlo->Top) y=-y;
+
+   //odbij od prawej sciany
+    if (b->Left+b->Width+5 >= tlo->Width) x=-x;
+
