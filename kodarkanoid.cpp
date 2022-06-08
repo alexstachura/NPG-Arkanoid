@@ -20,3 +20,9 @@ bool kolizja(TImage *pilka, TImage *cegla)
       return true;
       else return false;
 }
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+        : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
