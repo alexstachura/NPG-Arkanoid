@@ -43,3 +43,9 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
 
     //skucha!
     if (b->Top >= p->Top+p->Height+15)
+    {
+        Timer_pilka->Enabled = false;
+        b->Visible=false;
+        Button1->Caption = "Porażka! Jeszcze raz?";
+        Button1->Visible=true;
+    }
