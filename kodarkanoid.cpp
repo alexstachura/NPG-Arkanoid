@@ -90,3 +90,11 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
     if (kolizja(b,Image12) && Image12->Visible==true) {x=-x; y=-y; do_wygranej--; Image12->Visible=false;}
 
 }
+//---------------------------------------------------------------------------
+#KeyDown
+void __fastcall TForm1::FormKeyDown(TObject *Sender, WORD &Key,
+      TShiftState Shift)
+{
+  if(Key==VK_LEFT) lewo->Enabled=true;
+  if(Key==VK_RIGHT) prawo->Enabled=true;
+}
