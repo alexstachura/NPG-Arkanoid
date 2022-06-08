@@ -49,3 +49,9 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
         Button1->Caption = "Porażka! Jeszcze raz?";
         Button1->Visible=true;
     }
+    //odbicie pilki (b) od paletki (p)
+    else if(b->Left > p->Left-b->Width/2 && b->Left < p->Left+p->Width &&
+       b->Top+b->Height > p->Top)
+       {
+               if (y>0) y=-y;
+       }
