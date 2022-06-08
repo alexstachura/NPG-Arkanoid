@@ -55,3 +55,11 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
        {
                if (y>0) y=-y;
        }
+   //wygrana = zlikwidowanie wsyzstkich blokow
+     if (do_wygranej<=0)
+     {
+        Timer_pilka->Enabled = false;
+        b->Visible=false;
+        Button1->Caption = "Wygrana! Jeszcze raz?";
+        Button1->Visible=true;
+     }
