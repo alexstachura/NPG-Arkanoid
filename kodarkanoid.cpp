@@ -9,7 +9,7 @@
 #pragma resource "*.dfm"
 TForm1 *Form1;
 
-#odliczanie_i_kolizja
+//odliczanie_i_kolizja
 int x=-8, y=-8;
 int do_wygranej=12; 
 
@@ -26,7 +26,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
-#zaprogramowanie_timera_dla_pilki
+//zaprogramowanie_timera_dla_pilki
 void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
 {
     MediaPlayer1->Play();
@@ -91,7 +91,7 @@ void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
 
 }
 //---------------------------------------------------------------------------
-#KeyDown
+//KeyDown
 void __fastcall TForm1::FormKeyDown(TObject *Sender, WORD &Key,
       TShiftState Shift)
 {
