@@ -98,3 +98,11 @@ void __fastcall TForm1::FormKeyDown(TObject *Sender, WORD &Key,
   if(Key==VK_LEFT) lewo->Enabled=true;
   if(Key==VK_RIGHT) prawo->Enabled=true;
 }
+//---------------------------------------------------------------------------
+#KeyUp
+void __fastcall TForm1::FormKeyUp(TObject *Sender, WORD &Key,
+      TShiftState Shift)
+{
+  if(Key==VK_LEFT) lewo->Enabled=false;
+  if(Key==VK_RIGHT) prawo->Enabled=false;
+}
