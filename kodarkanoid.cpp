@@ -11,7 +11,7 @@ TForm1 *Form1;
 
 //odliczanie_i_kolizja
 int x=-8, y=-8;
-int do_wygranej=122; 
+int do_wygranej=12; 
 
 bool kolizja(TImage *pilka, TImage *cegla)
 {
@@ -27,7 +27,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 }
 //---------------------------------------------------------------------------
 //zaprogramowanie_timera_dla_pilki
-void __fastcall TForm1::Timer_pilkaTimer(TObject *Sender)
+void __fastcall TForm1::Timer_pilkaTimer(Tobject *Sender)
 {
     MediaPlayer1->Play();
     b->Left+=x; b->Top+=y;
